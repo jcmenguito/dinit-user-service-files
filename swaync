@@ -1,0 +1,6 @@
+# Save this file to ~/.config/dinit.d
+type = process
+command = /usr/bin/swaync
+depends-on = dbus
+depends-on = waybar
+restart = true

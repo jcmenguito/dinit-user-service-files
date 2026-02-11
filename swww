@@ -1,0 +1,7 @@
+# Save this file to ~/.config/dinit.d
+type = process
+# The format xrgb flag is critical for preventing artifacts on many Wayland drivers
+command = /usr/bin/sh -c "rm -f $XDG_RUNTIME_DIR/swww.socket && swww-daemon --no-cache --format xrgb"
+smooth-recovery = true
+# Ensure it waits for your Wayland compositor (e.g., graphical target) if defined
+# depends-on = graphical.target

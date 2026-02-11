@@ -1,0 +1,6 @@
+# Save this file to ~/.config/dinit.d/
+type = process
+command = /usr/bin/waybar
+restart = true
+smooth-recovery = true
+#depends-on = graphical

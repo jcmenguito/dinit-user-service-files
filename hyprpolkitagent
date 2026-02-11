@@ -1,0 +1,4 @@
+# Save this file to ~/.config/dinit.d
+type = process
+command = /usr/lib/hyprpolkitagent/hyprpolkitagent
+smooth-recovery = true
